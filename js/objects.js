@@ -12,7 +12,7 @@ var jupiter = {theta: 0, period: 0.41/P_ganymede*(60*60/BASE_BPM/2./Math.PI), fr
 var jupiterGeometry = new THREE.SphereGeometry( 3, 50, 50 );
 var jupiterMaterial = new THREE.MeshPhongMaterial({
   // map: new THREE.TextureLoader().load( "images/jupiter_texture.jpg" ),
-  map: new THREE.TextureLoader().load( "images/dress2.jpg" ),
+  map: new THREE.TextureLoader().load( "images/dress.jpg" ),
   color: 0xaaaaaa,
   specular: 0x333333,
   shininess: 0
